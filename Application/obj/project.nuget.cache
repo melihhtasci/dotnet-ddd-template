@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oErSEYATtVxB7jXIompNDpZOb1XQhEKqmImwK5ccYQfUzVt3PBy/7xBOLL8ltrEvhQvYFJqwAdugzj0lgMENnw==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\movie-to-mood\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
