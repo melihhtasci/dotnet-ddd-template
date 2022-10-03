@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fb80d85c-8e5a-42a8-82df-7d21edf1fac8": {
+      "ProjectGuid": "fb80d85c-8e5a-42a8-82df-7d21edf1fac8",
+      "DisplayName": "API",
+      "ColorIndex": 0
+    },
+    "4837bbea-8c38-428f-a9d7-511ee936992e": {
+      "ProjectGuid": "4837bbea-8c38-428f-a9d7-511ee936992e",
+      "DisplayName": "Domain",
+      "ColorIndex": 1
+    },
+    "e082fb40-8459-46f9-b671-af53d26bb8fd": {
+      "ProjectGuid": "e082fb40-8459-46f9-b671-af53d26bb8fd",
+      "DisplayName": "Application",
+      "ColorIndex": 2
+    },
+    "4aec806f-cb2c-43d9-a615-903f92a97fa9": {
+      "ProjectGuid": "4aec806f-cb2c-43d9-a615-903f92a97fa9",
+      "DisplayName": "Infrastructure",
+      "ColorIndex": 3
+    },
+    "7987a859-1a05-4315-82e0-2fcb9e2f8c95": {
+      "ProjectGuid": "7987a859-1a05-4315-82e0-2fcb9e2f8c95",
+      "DisplayName": "Contracts",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

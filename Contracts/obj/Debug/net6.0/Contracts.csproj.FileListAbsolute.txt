@@ -1,0 +1,11 @@
+C:\GitHub\movie-to-mood\Contracts\bin\Debug\net6.0\Contracts.deps.json
+C:\GitHub\movie-to-mood\Contracts\bin\Debug\net6.0\Contracts.dll
+C:\GitHub\movie-to-mood\Contracts\bin\Debug\net6.0\ref\Contracts.dll
+C:\GitHub\movie-to-mood\Contracts\bin\Debug\net6.0\Contracts.pdb
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\Contracts.dll
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+C:\GitHub\movie-to-mood\Contracts\obj\Debug\net6.0\Contracts.pdb
