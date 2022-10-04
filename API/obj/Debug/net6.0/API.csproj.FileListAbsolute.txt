@@ -26,6 +26,14 @@ C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\ref\API.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Contracts.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Contracts.pdb
-C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\ref\API.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Application.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Application.pdb
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Infrastructure.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Infrastructure.pdb
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\refint\API.dll
