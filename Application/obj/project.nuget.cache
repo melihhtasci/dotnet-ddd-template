@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7BL6ZQTVN6sRlBAZwfZU5vSXgBk/mZSlIWdiwMxpMf5j2IYpCOB0dwVgGgAlUan1d10gagTZZzZ0l6sNQMcu/g==",
+  "dgSpecHash": "2eQ5b2EfWLHGy1/FvrRQuttm+NjkScob9+8VX8F2/Bbm4CzbsNyLMIbg9zbX35KxS/+3ueQ3EoFFHmfkYciruw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\movie-to-mood\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []

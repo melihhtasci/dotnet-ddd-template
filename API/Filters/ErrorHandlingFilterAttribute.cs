@@ -4,24 +4,28 @@ using System.Net;
 
 namespace API.Filters
 {
-    public class ErrorHandlingFilterAttribute : ExceptionFilterAttribute
-    {
-        public override void OnException(ExceptionContext context)
-        {
-            var exception = context.Exception;
+    ///
+    /// DEPRECATED. stands as an example
+    ///
 
-            var problemDetails = new ProblemDetails
-            { 
-                Detail = exception.Message,
-                Title = "An error occured while process is running",
-                Status = (int?)HttpStatusCode.InternalServerError,
-                Instance = context.HttpContext.Request.Path
-            };
+    //public class ErrorHandlingFilterAttribute : ExceptionFilterAttribute
+    //{
+    //    public override void OnException(ExceptionContext context)
+    //    {
+    //        var exception = context.Exception;
 
-            context.Result = new ObjectResult(problemDetails) { StatusCode = 500 };
-            context.ExceptionHandled = true;
+    //        var problemDetails = new ProblemDetails
+    //        {
+    //            Detail = exception.Message,
+    //            Title = "An error occured while process is running",
+    //            Status = (int?)HttpStatusCode.InternalServerError,
+    //            Instance = context.HttpContext.Request.Path
+    //        };
 
-            base.OnException(context);
-        }
-    }
+    //        context.Result = new ObjectResult(problemDetails) { StatusCode = 500 };
+    //        context.ExceptionHandled = true;
+
+    //        base.OnException(context);
+    //    }
+    //}
 }

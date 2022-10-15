@@ -1,6 +1,9 @@
+using Application.Common.Errors;
 using Application.Common.Interfaces.Authentication;
 using Application.Common.Interfaces.Persistance;
 using Domain;
+using Domain.Common.Errors;
+using ErrorOr;
 
 namespace Application.Services.Authentication;
 
@@ -14,24 +17,10 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Login(string Email, string Password)
-    {
-
-        if (_userRepository.GetUserByEmail(Email) is not User user)
-            throw new Exception("User with given email does not exist.");
-
-        if (user.Password != Password)
-            throw new Exception("Invalid password");
-
-        var token = _jwtTokenGenerator.GenerateToken(user);
-
-        return new AuthenticationResult(user, token);
-    }
-
-    public AuthenticationResult Register(string FirstName, string LastName, string Email, string Password)
+    public ErrorOr<AuthenticationResult> Register(string FirstName, string LastName, string Email, string Password)
     {
         if (_userRepository.GetUserByEmail(Email) is not null)
-            throw new Exception("User with given email already exist.");
+            return Errors.User.DuplicateEmail;
 
         var user = new User
         {
@@ -48,4 +37,19 @@ public class AuthenticationService : IAuthenticationService
         return new AuthenticationResult(user, null);
 
     }
+
+    public ErrorOr<AuthenticationResult> Login(string Email, string Password)
+    {
+
+        if (_userRepository.GetUserByEmail(Email) is not User user)
+            return new[] { Errors.Authentication.InvalidCredentials }; // instead of throw new exception
+
+        if (user.Password != Password)
+            return Errors.Authentication.InvalidCredentials;
+
+        var token = _jwtTokenGenerator.GenerateToken(user);
+
+        return new AuthenticationResult(user, token);
+    }
+   
 }
