@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bydk8EbUMXWZj+JpTPRRfiuEXF7MBfJ5jajsHNBhgmvKZQ0NJ3kkDVY6FhPZP7Tu85XQPXqzCfI0GPSRXwj4wQ==",
+  "dgSpecHash": "ICTdihqi9F8cd0lttHEjVuV2aX5oY6UwyYuQLqGudjcq02Tm0FNJYzDMFLehzsm4Q88V8yBaHQ+numevYRIYyA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\movie-to-mood\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

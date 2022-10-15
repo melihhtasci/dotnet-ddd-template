@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yZMRUQLYG74VfCtmoAMgWy6CV6ptmJhU+TnrOF1H8z2w2he/78xE/Jct2p3+hQ7rDWMv6ouzSYdj6XdUj+HZ1w==",
+  "dgSpecHash": "qhnF5lbHu5XqIjkGqRlqKLDNOCnhjq3TSCrjQF4FaLbuNdsYhQtk4YpEemFgMSGZH8qDnN/8qwa9mx+qPPGIeA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\movie-to-mood\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
