@@ -1,5 +1,6 @@
 C:\GitHub\movie-to-mood\Domain\bin\Debug\net6.0\Domain.deps.json
 C:\GitHub\movie-to-mood\Domain\bin\Debug\net6.0\Domain.dll
+C:\GitHub\movie-to-mood\Domain\bin\Debug\net6.0\ref\Domain.dll
 C:\GitHub\movie-to-mood\Domain\bin\Debug\net6.0\Domain.pdb
 C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
 C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,4 +10,3 @@ C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.
 C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\Domain.dll
 C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\Domain.pdb
-C:\GitHub\movie-to-mood\Domain\obj\Debug\net6.0\refint\Domain.dll
