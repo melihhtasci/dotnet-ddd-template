@@ -1,5 +1,3 @@
-using API.Filters;
-using API.Middleware;
 using Application;
 using Infrastructure;
 
@@ -16,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 {
     //app.UseMiddleware<ErrorHandlingMiddleware>();
-    app.UseExceptionHandler("/error");
+    //app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.MapControllers();
 

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EGsxbr40PIoANwxl+muCJgTKzbjF0SbYIAaFsc0doB1VLuZ5r9VhtgRjf+1d40www+LX+XOol37vPCNtH4wueQ==",
+  "dgSpecHash": "ljrMkk2NiDD4wt3MH9lMWT/YQS91jOO9JOzD1/TXfJE2dQg7q7Eh34OgFehmT1vTIMu+fX0QBxRDZbxfiu1h/Q==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\movie-to-mood\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melih\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
