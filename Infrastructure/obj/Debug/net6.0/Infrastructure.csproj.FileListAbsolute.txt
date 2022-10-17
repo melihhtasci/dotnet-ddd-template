@@ -1,6 +1,5 @@
 C:\GitHub\movie-to-mood\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
 C:\GitHub\movie-to-mood\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
-C:\GitHub\movie-to-mood\Infrastructure\bin\Debug\net6.0\ref\Infrastructure.dll
 C:\GitHub\movie-to-mood\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
 C:\GitHub\movie-to-mood\Infrastructure\bin\Debug\net6.0\Application.dll
 C:\GitHub\movie-to-mood\Infrastructure\bin\Debug\net6.0\Domain.dll
@@ -13,5 +12,6 @@ C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyI
 C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
 C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
 C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
-C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\GitHub\movie-to-mood\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
