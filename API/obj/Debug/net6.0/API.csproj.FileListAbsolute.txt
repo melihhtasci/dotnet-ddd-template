@@ -6,6 +6,12 @@ C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\API.runtimeconfig.json
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\API.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\API.pdb
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\ErrorOr.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\FluentValidation.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Mapster.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Mapster.Core.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Mapster.DependencyInjection.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\MediatR.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
@@ -40,7 +46,7 @@ C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\staticwebassets.development.json
 C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
 C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\API.csproj.CopyComplete
 C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\API.dll
-C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\refint\API.dll
+C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\ref\API.dll
 C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\API.pdb
 C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\API.genruntimeconfig.cache
-C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\ref\API.dll
+C:\GitHub\movie-to-mood\API\obj\Debug\net6.0\refint\API.dll

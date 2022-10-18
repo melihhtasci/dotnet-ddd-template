@@ -11,6 +11,8 @@
           "Application": "1.0.0",
           "Contracts": "1.0.0",
           "Infrastructure": "1.0.0",
+          "Mapster": "7.3.0",
+          "Mapster.DependencyInjection": "1.0.0",
           "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -23,6 +25,70 @@
           "lib/net6.0/ErrorOr.dll": {
             "assemblyVersion": "1.0.1.0",
             "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "FluentValidation/11.2.2": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.2.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/11.2.2": {
+        "dependencies": {
+          "FluentValidation": "11.2.2",
+          "FluentValidation.DependencyInjectionExtensions": "11.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.2.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.2.1": {
+        "dependencies": {
+          "FluentValidation": "11.2.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.1.0"
+          }
+        }
+      },
+      "Mapster/7.3.0": {
+        "dependencies": {
+          "Mapster.Core": "1.2.0",
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mapster.dll": {
+            "assemblyVersion": "7.3.0.0",
+            "fileVersion": "7.3.0.0"
+          }
+        }
+      },
+      "Mapster.Core/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Mapster.Core.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Mapster.DependencyInjection/1.0.0": {
+        "dependencies": {
+          "Mapster": "7.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mapster.DependencyInjection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -215,6 +281,47 @@
           }
         }
       },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Runtime/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -231,9 +338,18 @@
         }
       },
       "System.Text.Json/4.7.2": {},
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "Application/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "FluentValidation": "11.2.2",
+          "FluentValidation.AspNetCore": "11.2.2",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -284,6 +400,48 @@
       "sha512": "sha512-4ALbolifN9sinir3tZGntBEoJso96JyvjnnsAaNxxB2QFEkVtzcCSlvGkp27RDKe3UIexiV/wQrFceWfr7S5XA==",
       "path": "erroror/1.0.1",
       "hashPath": "erroror.1.0.1.nupkg.sha512"
+    },
+    "FluentValidation/11.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
+      "path": "fluentvalidation/11.2.2",
+      "hashPath": "fluentvalidation.11.2.2.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/11.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jU/MHXqg9cnOU18dY75vorP2c2WDKMan4zegOPsoc34xZVjzTEtXP0fKvkDEdeaChUVooNWuRr27u9w3sYbEFA==",
+      "path": "fluentvalidation.aspnetcore/11.2.2",
+      "hashPath": "fluentvalidation.aspnetcore.11.2.2.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WqR2kt0OidUCg9xS+YOoiDmdCu7EnYLLgQb/bX+5fTTVor+90dWmr1OdJaWlLZvg2nbwV9EfxA9FZp91+JmQtg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.2.1",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512"
+    },
+    "Mapster/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NrCUX/rJa5PTyo6iW4AL5dZLU9PDNlYnrJOVjgdpo5OQM9EtWH2CMHnC5sSuJWC0d0b0SnmeRrIviEem6WxtuQ==",
+      "path": "mapster/7.3.0",
+      "hashPath": "mapster.7.3.0.nupkg.sha512"
+    },
+    "Mapster.Core/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TNdqZk2zAuBYfJF88D/3clQTOyOdqr1crU81yZQtlGa+e7FYWhJdK/buBWT+TpM3qQko9UzmzfOT4iq3JCs/ZA==",
+      "path": "mapster.core/1.2.0",
+      "hashPath": "mapster.core.1.2.0.nupkg.sha512"
+    },
+    "Mapster.DependencyInjection/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nNSGrgu5GirZ8nmuFXHGct+GwXjmbAAb+UqBl3Bwx/vbkCOypuvOziC+wTaNEjz/OE6LMg8yMCZzOtl59Lxw9Q==",
+      "path": "mapster.dependencyinjection/1.0.0",
+      "hashPath": "mapster.dependencyinjection.1.0.0.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",
@@ -460,6 +618,41 @@
       "path": "system.identitymodel.tokens.jwt/6.23.1",
       "hashPath": "system.identitymodel.tokens.jwt.6.23.1.nupkg.sha512"
     },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
     "System.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -494,6 +687,13 @@
       "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
       "path": "system.text.json/4.7.2",
       "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
     "Application/1.0.0": {
       "type": "project",
