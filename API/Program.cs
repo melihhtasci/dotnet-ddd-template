@@ -1,20 +1,21 @@
+using API;
 using Application;
 using Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services
+        .AddApi()
         .AddApplication()
         .AddInfrastructure(builder.Configuration);
-
-    //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
+        
     builder.Services.AddControllers();
 }
 
 var app = builder.Build();
 {
-    //app.UseMiddleware<ErrorHandlingMiddleware>();
-    //app.UseExceptionHandler("/error");
+    app.UseExceptionHandler("/error");
+
     app.UseHttpsRedirection();
     app.MapControllers();
 

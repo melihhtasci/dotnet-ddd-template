@@ -20,8 +20,6 @@ namespace Application.Authentication.Commands.Register
 
         public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand request, CancellationToken cancellationToken)
         {
-            Console.WriteLine("RegisterCommandHandler worked");
-
             if (_userRepository.GetUserByEmail(request.Email) is not null)
                 return Domain.Common.Errors.Errors.User.DuplicateEmail;
 
