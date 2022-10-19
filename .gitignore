@@ -1,3 +1,7 @@
-
+*.cache
 HELP.md
 DOTNET_CLUES.md
+*.cache
+*.dll
+*.pdb
+API/.vs/API/v17/.suo

@@ -15,10 +15,13 @@ C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Mapster.DependencyInjection.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\MediatR.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\GitHub\movie-to-mood\API\bin\Debug\net6.0\Newtonsoft.Json.dll
