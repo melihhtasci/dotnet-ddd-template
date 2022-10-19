@@ -1,4 +1,4 @@
-# dotnet-ddd-template
+# ddd-template-dotnet
 
 A microservice template that using ddd.   
 
